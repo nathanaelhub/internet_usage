@@ -1,6 +1,6 @@
 # internet_usage
 
-o view the webpage created as part of this Tableau Embedding Project go to: https://nathanaelhub.github.io/internet_usage/
+To view the webpage created as part of this Tableau Embedding Project go to: https://nathanaelhub.github.io/internet_usage/
 
 ### Global Internet Usage and Search Engine Analysis
 

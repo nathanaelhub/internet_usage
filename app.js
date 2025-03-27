@@ -1,5 +1,3 @@
-console.log('Is this working?');
-
 let viz;
 
 //Add Share Link to Tableau Public in here
@@ -13,13 +11,11 @@ const options = {
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
-        console.log("My dashboard is interactive");
     }
 };
 
 //create a function to generate the viz element
 function initViz() {
-    console.log('Executing the initViz function!');
     viz = new tableau.Viz(vizContainer, url, options);
 }
 

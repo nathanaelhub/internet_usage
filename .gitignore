@@ -1,0 +1,12 @@
+# R session data
+.Rhistory
+.RData
+.Rproj.user/
+
+# Source CSVs live locally (see Clean Data.R -> data_dir)
+Countries/
+CountriesByUsers.csv
+Final_data.csv
+
+# macOS
+.DS_Store

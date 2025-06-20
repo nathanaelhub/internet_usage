@@ -2,6 +2,15 @@
 
 To view the webpage created as part of this Tableau Embedding Project go to: https://nathanaelhub.github.io/internet_usage/
 
+## Files in this repo
+
+- `Clean Data.R` — RStudio script that reads the country + per-country search-engine CSVs and merges them into one dataset
+- `index.html` / `app.js` — the Tableau JavaScript API embed for the published dashboard
+- `Tableau.twbx` — the packaged Tableau workbook
+- `Presentation.pptx` — project slides
+
+The source CSVs aren't committed; point `data_dir` in `Clean Data.R` at your local copy.
+
 ### Global Internet Usage and Search Engine Analysis
 
 This project explores the evolving landscape of internet usage worldwide, focusing on the distribution of users across different search engines such as Google, Bing, and Yahoo! in the top 12 countries by internet user population. Utilizing RStudio for data filtering, importing, and merging, followed by Tableau for dynamic visualizations, the project aims to provide a comprehensive view of global internet engagement trends.
